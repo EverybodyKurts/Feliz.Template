@@ -12,7 +12,8 @@
         "vscode": {
             "extensions": [
                 "Ionide.Ionide-Paket",
-                "Ionide.Ionide-fsharp"
+                "Ionide.Ionide-fsharp",
+                "ms-dotnettools.csharp"
             ]
         }
     },
