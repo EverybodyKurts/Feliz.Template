@@ -14,7 +14,9 @@
                 "Ionide.Ionide-Paket",
                 "Ionide.Ionide-fsharp",
                 "ms-dotnettools.csharp",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "jeremyrajan.webpack",
+                "shardulm94.trailing-spaces"
             ]
         }
     },
