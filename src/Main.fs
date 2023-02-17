@@ -7,7 +7,7 @@ open Fable.Core.JsInterop
 
 importSideEffects "./styles/global.scss"
 
-ReactDOM.render(
-    Components.HelloWorld(),
-    document.getElementById "feliz-app"
-)
+let htmlElement= document.getElementById "feliz-app"
+let root = ReactDOM.createRoot htmlElement
+
+root.render (Components.HelloWorld())
