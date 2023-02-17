@@ -39,6 +39,7 @@ type Components =
                 | [ ] -> Html.h1 "Index"
                 | [ "hello" ] -> Components.HelloWorld()
                 | [ "counter" ] -> Components.Counter()
+                | [ "elmish" ] -> Elmish.Counter()
                 | otherwise -> Html.h1 "Not found"
             ]
         ]
