@@ -13,7 +13,8 @@
             "extensions": [
                 "Ionide.Ionide-Paket",
                 "Ionide.Ionide-fsharp",
-                "ms-dotnettools.csharp"
+                "ms-dotnettools.csharp",
+                "ms-azuretools.vscode-docker"
             ]
         }
     },
