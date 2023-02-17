@@ -19,7 +19,7 @@ module Elmish =
         | Decrement -> { state with Count = state.Count - 1 }, Cmd.none
 
     [<ReactComponent>]
-    let Counter() =
+    let Counter() : Fable.React.ReactElement =
         let state, dispatch = React.useElmish(init, update, [| |])
         Html.div [
             Html.h1 state.Count
