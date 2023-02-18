@@ -16,6 +16,6 @@ WORKDIR ${WORKDIR}
 
 COPY --chown=${USER}:${USER} package*.json ${WORKDIR}
 
-RUN npm install --force
+RUN npm install
 
 COPY --chown=${USER} . ${WORKDIR}
